@@ -73,7 +73,33 @@
 	</section>
 
 	<section id="commentForm">
-		<form>
+		<form action="#" method="post">
+			<h3>Post a Comment</h3>
+
+			<p>
+				<label for="name">Name  </label> 
+				<input name="name" type="text" id="name" required />
+			</p>
+
+			<p>
+				<label for="email">Email </label>
+				<input name="email" type="email" id="email" required />
+			</p>
+
+			<p>
+				<label for="website">Website</label>
+				<input name="website" type="url" id="website" required />
+			</p>
+
+			<p>
+				<label for="comment">Comment</label>
+				<textarea name="comment" id="comment" required></textarea>
+			</p>
+
+			<p>
+				<input type="submit" value="Post comment">
+			</p>
+			
 			
 		</form>
 		
