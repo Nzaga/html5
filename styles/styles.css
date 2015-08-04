@@ -79,7 +79,7 @@ nav ul li.subscribe a {
 	background-color: #467612;
 	background: url(../images/intro_background.png), url(../images/intro_flower.png);
 	background-repeat: repeat-x, no-repeat;
-	
+
 
 
 
@@ -102,4 +102,34 @@ nav ul li.subscribe a {
 #intro p {
 	padding: 0;
 	color :#d9f499;
+}
+
+#content{
+	display: table;
+}
+
+#mainContent{
+	display: table-cell;
+	padding-right: 22px;
+	width: 620px;
+}
+
+aside {
+	display: table-cell;
+	width: 300px;
+}
+
+.blogspot div {
+	-moz-column-count: 2;
+	-moz-column-gap: 22px;
+
+}
+
+.blogspot header {
+	-moz-column-span : all;
+}
+
+.blogspot img {
+	margin :22px 0;
+	box-shadow: 3px 3px 7px #777;
 }
