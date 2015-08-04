@@ -78,13 +78,7 @@ nav ul li.subscribe a {
 	padding: 44px;
 	background-color: #467612;
 	background: url(../images/intro_background.png), url(../images/intro_flower.png);
-	background-repeat: repeat-x, no-repeat;
-
-
-
-
-						
-	
+	background-repeat: repeat-x, no-repeat;	
 	background-size: 100%;
 	border-radius: 22px;
 }
@@ -132,4 +126,141 @@ aside {
 .blogspot img {
 	margin :22px 0;
 	box-shadow: 3px 3px 7px #777;
+}
+
+section#comments article:nth-child(2n+1){
+	padding: 21px;
+	background: #E3E3E3;
+    border: 1px solid #d7d7d7;
+    border-radius: 11px
+
+}
+
+form {
+	display: table;
+}
+
+form p {
+	display: table-row;
+}
+
+form p {
+    display: table;
+    margin-bottom: 22px;
+    padding: 0 22px;
+}
+
+form label {
+	display: table-cell;
+	padding-right: 20px;
+	width: 140px;
+	text-align: right;
+	vertical-align: top;
+}
+
+form input[type="submit"] {
+    margin-left: 162px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="url"] {
+    border: 1px solid #d7d7d7;
+    display: table-cell;
+    height: 20px;
+    width: 300px;
+}
+
+form textarea {
+    border: 1px solid #d7d7d7;
+    height: 100px;
+    width: 300px;
+}
+
+form input[type="submit"] {
+    margin-left: 162px;
+}
+
+footer {
+	position: absolute;
+	background: #222;
+	left: 0px;
+	width: 100%;
+	
+}
+
+#tableFooter{
+	display: table;
+	width: 940px;
+	margin: 0 auto;
+	padding: 44px 0;
+}
+
+footer div section {
+	width: 300px;
+}
+
+footer div #about, footer div #blogroll {
+    padding-right: 20px;
+}
+
+footer h3{
+	color: #fff;
+}
+
+footer a {
+	color :#999;
+}
+
+footer a:hover {
+	color :#fff;
+	text-decoration: none;
+}
+
+footer ul li {
+	list-style: square;
+}
+
+footer ul li a {
+	display: block;
+}
+
+footer div {
+	color :#777;
+}
+
+#about{
+	display: table-cell;
+}
+
+#blogrol{
+	display: table-cell;
+}
+
+#popular{
+	display: table-cell;
+}
+
+aside section ul li {
+	list-style: none;
+}
+
+aside section ul li a {
+	text-decoration: none;
+	color :#000;
+	display: block;
+}
+
+aside section ul li a:hover {
+	text-decoration: underline;
+}
+
+aside {
+	background: rgba(0, 0, 0, 0) url("../images/sidebar_background.png") repeat scroll left top;
+}
+
+aside section {
+	background: rgba(0, 0, 0, 0) url("../images/sidebar_section_background.png") repeat-x scroll 0 0;
+	margin: 22px 0 0 22px;
+    padding: 11px 22px;
+    
+    border-radius: 3px;
 }
