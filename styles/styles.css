@@ -73,6 +73,7 @@ nav ul li.subscribe a {
 	padding-left: 34px;
 }
 
+/*
 #intro {
 	margin-top: 66px;
 	padding: 44px;
@@ -82,13 +83,35 @@ nav ul li.subscribe a {
 	background-size: 100%;
 	border-radius: 22px;
 }
+*/
+
+
+
+#intro img {
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width:653px;
+}
+
+#intro {
+	background: #467612 url("../images/intro_background.png") repeat-x scroll 0 0;
+    margin-top: 86px;
+    padding: 44px;
+    position: relative;
+    height: 200px;
+}
 
 #intro h2, #intro p {
 	width: 336px;
+	position: relative;
+	z-index: 9999;
 }
 
 #intro h2 {
-	padding: 0 0 22px 0;
+	margin-top: 0px;
+	padding: 0 0 8px 0;
 	color :#fff;
 	font-weight: normal;
 }
@@ -96,6 +119,7 @@ nav ul li.subscribe a {
 #intro p {
 	padding: 0;
 	color :#d9f499;
+
 }
 
 #content{
