@@ -1,1 +1,17 @@
 /*CSS reset*/
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*Block display of the html 5 elements*/
+header, footer, article, aside, nav {
+	display: block;
+}
+
+body {
+	background: #f0f0f0;
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+}
